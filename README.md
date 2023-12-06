@@ -18,6 +18,8 @@
 
 Business website for a dental clinic with a fully functional online booking system. Made using [Next 14](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
+You can access OrthoCare's website by going at [https://orthocare-dentist.vercel.app/](https://orthocare-dentist.vercel.app/).
+
 ### Dependencies
 
 OrthoCare uses many third party libraries to provide more functionality and features to its website in order to provide the best online service for its users.
@@ -40,7 +42,7 @@ This allows OrthoCare to show some of the before and after photos of some patien
 
 OrthoCare's website is host using [Vercel](https://vercel.com/).
 
-To see the hosted website, click [here]().
+To see the end result hosted website, click [here](https://orthocare-dentist.vercel.app/).
 
 ## License
 
