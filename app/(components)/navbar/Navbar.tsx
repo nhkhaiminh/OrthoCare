@@ -1,46 +1,28 @@
-import Image from 'next/image'
+"use client"
+
 import Link from 'next/link'
-import React from 'react'
+import React, { createContext, useContext, useState } from 'react'
+import MobileNavbar from './MobileNavbar'
+import { NavbarList } from './NavbarList'
+import { Logo } from './Logo'
+import { MobileNavbarContextType } from '@/app/(libs)/@types/index.t'
 
-function NavbarList() {
-    return (
-        <ul className="flex space-x-8">
-            <li className="">
-                <Link href={'/about'}>
-                    ABOUT
-                </Link>
-            </li>
-        </ul>
-    )
-}
+export const MobileNavbarContext = createContext<MobileNavbarContextType | null>(null)
 
-function Logo() {
-    return (
-        <>
-            <Image
-                className=''
-                src={'OrthoCare-Logotype.svg'}
-                width={200}
-                height={200}
-                alt='OrthoCare Logo'
-            />
-        </>
-    )
-}
+export default function Navbar() {
+    const [openState, setOpenState] = useState<boolean>(false)
 
-function Navbar() {
     return (
-        <nav className='grid grid-cols-2 px-[5rem] py-5 border'>
-            <div className="flex">
-                <Link href={'/'}>
-                    <Logo />
-                </Link>
-            </div>
-            <div className="">
-                <NavbarList />
-            </div>
+        <nav className='fixed w-full z-20'>
+            <MobileNavbarContext.Provider value={{ openState, setOpenState }}>
+                <div className="grid grid-cols-2 w-full z-30 items-center bg-white px-mobilex lg:px-[5rem] py-5 lg:py-0 border drop-shadow-sm">
+                    <Link href={'/'} className='flex z-30'>
+                        <Logo />
+                    </Link>
+                    <NavbarList />
+                </div>
+                <MobileNavbar />
+            </MobileNavbarContext.Provider>
         </nav>
     )
 }
-
-export default Navbar

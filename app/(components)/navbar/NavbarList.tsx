@@ -1,0 +1,68 @@
+"use client"
+
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
+import { useContext } from "react";
+import { MobileNavbarContext } from "./Navbar";
+import { MobileNavbarContextType } from "@/app/(libs)/@types/index.t";
+
+function NavbarDropDown() {
+    return (
+        <div className="dropdown relative duration-200 py-5">
+            <span className=" items-center hover:text-gray-500">SERVICES</span>
+            <div className={`
+            inset-x-0
+            w-[15rem] h-fit
+            bg-white border-t-4 border-cyan-900 
+            dropdown-content flex-col space-y-3
+            translate-y-3 drop-shadow
+            `}>
+                <Link href={'/'} className="px-3 py-4 hover:bg-gray-100">
+                    GENERAL
+                </Link>
+                <Link href={'/'} className="px-3 py-4 hover:bg-gray-100">
+                    COSMETIC
+                </Link>
+                <Link href={'/'} className="px-3 py-4 hover:bg-gray-100">
+                    SURGICAL
+                </Link>
+            </div>
+        </div>
+    )
+}
+
+export function NavbarList() {
+    const { openState, setOpenState } = useContext(MobileNavbarContext) as MobileNavbarContextType
+
+    return (
+        <>
+            <ul className="hidden lg:flex space-x-12 justify-end items-center text-black font-medium">
+                <li className="hover:text-gray-500 duration-200 py-5">
+                    <Link href={'/about'} >
+                        ABOUT
+                    </Link>
+                </li>
+                <NavbarDropDown />
+                {/* <li className="">
+                    <Link href={'/services'}>
+                        SERVICES
+                    </Link>
+                </li> */}
+                <li className="hover:text-gray-500 duration-200 py-5">
+                    <Link href={'/new-patients'} className="">
+                        NEW PATIENTS
+                    </Link>
+                </li>
+            </ul>
+            <div className="flex lg:hidden cursor-pointer justify-self-end"
+                onClick={() => setOpenState(!openState)}
+            >
+                <FontAwesomeIcon
+                    className='text-black w-8 h-8'
+                    icon={openState ? faXmark : faBars}
+                />
+            </div>
+        </>
+    )
+}
