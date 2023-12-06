@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      'padding': {
+        "normalx": "5rem",
+        "mobilex": "2rem"
       },
+      "colors": {
+        'frblue': "#076191"
+      },
+      "backgroundImage": {
+        'abstract-pattern': "url('/media/abstract-bg.jpg')",
+      },
+      "fontFamily": {
+        'inter': ['var(--font-inter)'],
+        'merry': ['var(--font-merryweather)'],
+      }
     },
   },
   plugins: [],
