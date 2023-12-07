@@ -11,7 +11,7 @@ export default function BookAppointmentCallToAction() {
                 <p className='text-xl'>View available appointments and enjoy dentistry done right. +FREE teeth whitening for life.</p>
                 <div className="">
                     <FadeBtn>
-                        <Link href={'/'}>BOOK ONLINE</Link>
+                        <Link href={'/book-appointment'}>BOOK ONLINE</Link>
                     </FadeBtn>
                 </div>
             </div>
