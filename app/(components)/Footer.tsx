@@ -61,7 +61,7 @@ export default function Footer() {
                         <p>
                             OrthoCare Dental Clinic
                             123 Avenue Maple, Suite 201
-                            Montreal, QC H3A 1W3
+                            Montreal, QC, H3A 1W3,
                             Canada
                         </p>
                         <p>+1 (514) 555-7890</p>
@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
             <div className="">
                 <p>© OrthoCare 2023. All Rights Reserved.</p>
-                <p>Website made by <a className='underline text-amber-200 hover:text-amber-300 duration-300' href='https://asleyrobleto.com'>Asley R</a>. 2023.</p>
+                <p>Website made by <a className='underline text-amber-200 hover:text-amber-300 duration-300' href='https://asleyrobleto.com' target={'_blank'}>Asley R</a>. 2023.</p>
             </div>
         </footer>
     )
