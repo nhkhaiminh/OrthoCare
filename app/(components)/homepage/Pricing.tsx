@@ -30,7 +30,7 @@ export const Pricing = () => {
                         />
                     </div>
                     <h3 className='font-merry font-semibold text-2xl'>Insurance</h3>
-                    <p>Our office is in-network with Delta Premier and bills all other providers. Our team will explain how your specific dental benefits apply to the cost of treatment.</p>
+                    <p>Our office is in-network with various insurance providers and bills all other providers. Our team will explain how your specific dental benefits apply to the cost of treatment.</p>
                 </div>
             </div>
         </div>
