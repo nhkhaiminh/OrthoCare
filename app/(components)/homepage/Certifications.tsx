@@ -6,7 +6,7 @@ export default function Certifications() {
     return (
         <div className="grid bg-white py-12 px-mobilex">
             <div className="flex flex-col md:flex-row items-center justify-center gap-20">
-                <Link className='w-fit' href={'/'}>
+                <Link className='w-fit' href={'https://ohdq.com/'} target={'_blank'}>
                     <Image
                         className='w-full h-[70px]'
                         src={'/svgs/OHDQ-Logo.svg'}
@@ -15,7 +15,7 @@ export default function Certifications() {
                         alt='OHDQ-Logo'
                     />
                 </Link>
-                <Link className="w-fit" href={'/'}>
+                <Link className="w-fit" href={'https://www.acdq.qc.ca/en/'} target={'_blank'}>
                     <Image
                         className='w-full h-[70px]'
                         src={'/svgs/ACQ-Logo.svg'}
@@ -24,7 +24,7 @@ export default function Certifications() {
                         alt='ACQ-Logo'
                     />
                 </Link>
-                <Link className="w-fit" href={'/'}>
+                <Link className="w-fit" href={'https://www.odq.qc.ca/'} target={'_blank'}>
                     <Image
                         className='w-full h-[70px]'
                         src={'/svgs/ODQ-Logo.svg'}
