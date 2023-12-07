@@ -20,7 +20,7 @@ export default function Hero() {
                     <p className='text-lg md:text-xl'>YOUR SMILE STARTS HERE</p>
                     <div className="relative">
                         <FadeBtn>
-                            <Link href={'/'}>Book Free Consult</Link>
+                            <Link href={'/book-appointment'}>Book Free Consult</Link>
                         </FadeBtn>
                     </div>
                 </div>
