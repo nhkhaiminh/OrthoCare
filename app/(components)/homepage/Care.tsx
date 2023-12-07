@@ -32,7 +32,7 @@ export default function Care() {
             <div className='flex flex-col gap-10'>
                 <h1 className='text-3xl md:text-4xl text-center font-merry font-semibold'>Comprehensive care, one convenient location</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-center items-center">
-                    <CareCard>
+                    <CareCard link='/services/general'>
                         <div className="flex flex-col gap-5 justify-center">
                             <Image
                                 className='rounded-t-2xl w-full lg:w-auto'
@@ -50,7 +50,7 @@ export default function Care() {
                             </div>
                         </div>
                     </CareCard>
-                    <CareCard>
+                    <CareCard link='/services/cosmetic'>
                         <div className="flex flex-col gap-5 justify-center">
                             <Image
                                 className='rounded-t-2xl w-full lg:w-auto'
@@ -68,7 +68,7 @@ export default function Care() {
                             </div>
                         </div>
                     </CareCard>
-                    <CareCard>
+                    <CareCard link='/services/surgical'>
                         <div className="flex flex-col gap-5 justify-center">
                             <Image
                                 className='rounded-t-2xl w-full lg:w-auto'
@@ -79,7 +79,7 @@ export default function Care() {
                             />
                             <div className="flex flex-col gap-3">
                                 <h2 className='font-semibold text-xl'>Surgical</h2>
-                                <p className='text-lg'>Discover your “wow!” factor. Invisalign, veneers, and in-office or take-home teeth whitening.</p>
+                                <p className='text-lg'>We can fix anything. Our dentists repair damaged or lost teeth with cutting-edge implants and more.</p>
                                 <div className="">
                                     <LearnMoreBtn />
                                 </div>
