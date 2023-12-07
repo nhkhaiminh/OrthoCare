@@ -33,13 +33,13 @@ function ServicesMobileDropDown() {
             {
                 openState ?
                     <div className={`${showServices ? 'flex' : 'hidden'} flex-col`}>
-                        <Link href={'/'} className='px-14 pr-5 hover:bg-gray-200 py-5 border-t border-gray-300 active:bg-gray-300'>
+                        <Link href={'/services/general'} className='px-14 pr-5 hover:bg-gray-200 py-5 border-t border-gray-300 active:bg-gray-300'>
                             GENERAL
                         </Link>
-                        <Link href={'/'} className='px-14 py-5 hover:bg-gray-200 border-y border-gray-300 active:bg-gray-300'>
+                        <Link href={'/services/cosmetic'} className='px-14 py-5 hover:bg-gray-200 border-y border-gray-300 active:bg-gray-300'>
                             COSMETIC
                         </Link>
-                        <Link href={'/'} className='px-14 py-5 hover:bg-gray-200 border-b border-gray-300 active:bg-gray-300'>
+                        <Link href={'/services/surgical'} className='px-14 py-5 hover:bg-gray-200 border-b border-gray-300 active:bg-gray-300'>
                             SURGICAL
                         </Link>
                     </div>
@@ -64,8 +64,8 @@ function MobileNavbarList() {
                 </Link>
                 <ServicesMobileDropDown />
                 <Link className='hover:bg-gray-200 active:bg-gray-300 hover:drop-shadow duration-200 px-5 py-5'
-                    href={'/about'} onClick={() => setOpenState(false)}>
-                    NEW PATIENTS
+                    href={'/book-appointment'} onClick={() => setOpenState(false)}>
+                    BOOK APPOINTMENT
                 </Link>
             </div>
         </div>

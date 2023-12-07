@@ -18,13 +18,13 @@ function NavbarDropDown() {
             dropdown-content flex-col space-y-3
             translate-y-3 drop-shadow
             `}>
-                <Link href={'/'} className="px-3 py-4 hover:bg-gray-100">
+                <Link href={'/services/general'} className="px-3 py-4 hover:bg-gray-100">
                     GENERAL
                 </Link>
-                <Link href={'/'} className="px-3 py-4 hover:bg-gray-100">
+                <Link href={'/services/cosmetic'} className="px-3 py-4 hover:bg-gray-100">
                     COSMETIC
                 </Link>
-                <Link href={'/'} className="px-3 py-4 hover:bg-gray-100">
+                <Link href={'/services/surgical'} className="px-3 py-4 hover:bg-gray-100">
                     SURGICAL
                 </Link>
             </div>
@@ -44,14 +44,9 @@ export function NavbarList() {
                     </Link>
                 </li>
                 <NavbarDropDown />
-                {/* <li className="">
-                    <Link href={'/services'}>
-                        SERVICES
-                    </Link>
-                </li> */}
-                <li className="hover:text-gray-500 duration-200 py-5">
-                    <Link href={'/new-patients'} className="">
-                        NEW PATIENTS
+                <li className="duration-200 py-5">
+                    <Link href={'/book-appointment'} className="bg-amber-300 hover:bg-amber-200 rounded-full px-4 py-3 duration-200">
+                        BOOK APPOINTMENT
                     </Link>
                 </li>
             </ul>
