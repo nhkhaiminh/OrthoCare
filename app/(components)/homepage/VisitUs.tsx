@@ -42,7 +42,7 @@ export default function VisitUs() {
             <div className="flex flex-col gap-10 lg:gap-7 text-xl leading-relaxed">
                 <h2 className='font-merry font-semibold text-4xl'>Visit Us</h2>
                 <p className=''>
-                    {`We're conveniently located in the Denver Tech Center area. Find us on the 4th floor of the Triad Office Park building. Plenty of free parking available.`}
+                    {`We're conveniently located in the downtown Montreal area. Find us on the 2th floor of the Triad Office Park building. Plenty of free parking available.`}
                 </p>
                 <div className="flex gap-5">
                     <Image
@@ -53,8 +53,7 @@ export default function VisitUs() {
                         alt=''
                     />
                     <p className=''>
-                        5670 Greenwood Plaza Blvd., Suite 404
-                        Greenwood Village, CO 80111
+                        OrthoCare Dental Clinic 123 Avenue Maple, Suite 201 Montreal, QC, H3A 1W3, Canada
                     </p>
                 </div>
                 <div className="">
