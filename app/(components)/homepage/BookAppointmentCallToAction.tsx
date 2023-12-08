@@ -10,9 +10,11 @@ export default function BookAppointmentCallToAction() {
                 <h3 className='font-merry font-semibold text-4xl md:text-5xl'>Book your visist online</h3>
                 <p className='text-xl'>View available appointments and enjoy dentistry done right. +FREE teeth whitening for life.</p>
                 <div className="">
-                    <FadeBtn>
-                        <Link href={'/book-appointment'}>BOOK ONLINE</Link>
-                    </FadeBtn>
+                    <Link href={'/book-appointment'}>
+                        <FadeBtn>
+                            BOOK ONLINE
+                        </FadeBtn>
+                    </Link>
                 </div>
             </div>
         </div>
