@@ -19,9 +19,11 @@ export default function Hero() {
                     </h1>
                     <p className='text-lg md:text-xl'>YOUR SMILE STARTS HERE</p>
                     <div className="relative">
-                        <FadeBtn>
-                            <Link href={'/book-appointment'}>Book Free Consult</Link>
-                        </FadeBtn>
+                        <Link href={'/book-appointment'}>
+                            <FadeBtn>
+                                Book Free Consult
+                            </FadeBtn>
+                        </Link>
                     </div>
                 </div>
             </div>
