@@ -2,10 +2,12 @@ import React from 'react'
 import ComparisonSlider from '../ComparisonSlider'
 
 export default function PatientTransformations() {
+
     return (
-        <div className='bg-white px-mobilex py-20 lg:px-normalx flex flex-col gap-14 md:gap-16 justify-center'>
-            <div className="font-semibold text-center">
-                <p className='tracking-widest text-3xl text-cyan-700'>PATIENT</p>
+        <div className='relative z-10 bg-white px-mobilex py-20 lg:px-normalx flex flex-col gap-14 md:gap-16 justify-center'>
+            <div className="polka-dots absolute inset-0 -z-10"></div>
+            <div className="font-semibold text-center z-20">
+                <p className='tracking-widest text-3xl text-blue-800'>PATIENT</p>
                 <h2 className='text-3xl md:text-4xl'>Transformations</h2>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
