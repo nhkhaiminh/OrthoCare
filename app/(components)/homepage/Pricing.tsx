@@ -4,8 +4,8 @@ import React from 'react'
 export const Pricing = () => {
     return (
         <div className='bg-gray-200 px-[2.5rem] lg:normalx py-20 grid justify-center'>
-            <div className="grid grid-cols-1 lg:grid-cols-2 border-cyan-800 border-2 rounded-tl-3xl rounded-br-3xl overflow-hidden">
-                <div className="flex flex-col gap-5 text-cyan-800 p-[2.5rem] md:p-[5rem] text-xl">
+            <div className="bg-gray-100 grid grid-cols-1 lg:grid-cols-2 border-blue-900 border-2 rounded-tl-3xl rounded-br-3xl overflow-hidden shadow-md">
+                <div className="flex flex-col gap-5 text-blue-900 p-[2.5rem] md:p-[5rem] text-xl">
                     <div className="relative">
                         <Image
                             className='w-[3.5rem] -translate-x-3'
@@ -19,7 +19,7 @@ export const Pricing = () => {
                     <h3 className='font-merry font-semibold text-4xl'>No Surprises</h3>
                     <p>{`Our team believes in accessible dental care. We offer straightforward pricing, clear estimates, and an unprecedented dental warranty. Keep up with your routine 6-month checkups and if something needs fixing, we'll handle it at no cost to you.`}</p>
                 </div>
-                <div className="relative text-white bg-cyan-800 p-[2.5rem] md:p-[5rem] text-xl flex flex-col gap-5">
+                <div className="relative text-white bg-blue-900 p-[2.5rem] md:p-[5rem] text-xl flex flex-col gap-5 shadow-md">
                     <div className="block md:absolute md:bottom-0">
                         <Image
                             className='w-[3.5rem] md:w-[22rem] md:translate-y-[17rem] lg:translate-y-[10rem] -translate-x-3 md:translate-x-20'
