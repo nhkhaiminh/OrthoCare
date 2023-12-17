@@ -27,8 +27,14 @@ function LearnMoreBtn() {
 }
 
 export default function Care() {
+    const lines = {
+        backgroundColor: "#f1f1fe",
+        opacity: 0.1,
+        backgroundImage: "linear-gradient(#0284C7 1.8px, transparent 1.8px), linear-gradient(to right, #0284C7 1.8px, #f1f1fe 1.8px)",
+        backgroundSize: "36px 36px",
+    }
     return (
-        <Container className='bg-gray-200 px-mobilex lg:px-normalx py-20'>
+        <Container className='bg-gray-100 px-mobilex lg:px-normalx py-20'>
             <div className='flex flex-col gap-10'>
                 <h1 className='text-3xl md:text-4xl text-center font-merry font-semibold'>Comprehensive care, one convenient location</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-center items-center">
