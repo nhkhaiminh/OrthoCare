@@ -4,8 +4,12 @@ import React from 'react'
 
 export default function VisitUs() {
     return (
-        <div className='bg-gray-100 grid grid-cols-1 lg:grid-cols-2 gap-16 px-mobilex md:px-[8rem] py-20'>
-            <div className="flex flex-col gap-3">
+        <div className='relative z-10 bg-gray-100 grid grid-cols-1 lg:grid-cols-2 gap-16 px-mobilex md:px-[8rem] pt-40 pb-20'>
+            <div className="absolute inset-0 small-polka-dots -z-20"></div>
+            <div className="absolute inset-0 -z-10">
+                <svg className='w-full h-[5rem]' preserveAspectRatio='none' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E7EB" fillOpacity="1" d="M0,160L48,144C96,128,192,96,288,90.7C384,85,480,107,576,133.3C672,160,768,192,864,208C960,224,1056,224,1152,197.3C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            </div>
+            <div className="flex flex-col gap-3 z-10">
                 <div className="flex gap-3 lg:justify-center">
                     <Image
                         className='min-w-[100px] lg:w-[230px]'
