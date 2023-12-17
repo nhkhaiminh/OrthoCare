@@ -14,7 +14,7 @@ function NavbarDropDown() {
             <div className={`
             inset-x-0
             w-[15rem] h-fit
-            bg-white border-t-4 border-cyan-900 
+            bg-white border-t-4 border-blue-800 
             dropdown-content flex-col space-y-3
             translate-y-3 drop-shadow
             `}>
