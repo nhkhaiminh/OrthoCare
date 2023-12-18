@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Certifications() {
     return (
-        <div className="grid bg-white py-12 px-mobilex">
+        <div className="grid bg-white py-12 px-5">
             <div className="flex flex-col md:flex-row items-center justify-center gap-20">
                 <Link className='w-fit' href={'https://ohdq.com/'} target={'_blank'}>
                     <Image
