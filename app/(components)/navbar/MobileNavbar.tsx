@@ -33,13 +33,22 @@ function ServicesMobileDropDown() {
             {
                 openState ?
                     <div className={`${showServices ? 'flex' : 'hidden'} flex-col`}>
-                        <Link href={'/services/general'} className='px-14 pr-5 hover:bg-gray-200 py-5 border-t border-gray-300 active:bg-gray-300'>
+                        <Link href={'/services/general'}
+                            className='px-14 pr-5 hover:bg-gray-200 py-5 border-t border-gray-300 active:bg-gray-300'
+                            onClick={() => { setOpenState(false); setShowServices(false) }}
+                        >
                             GENERAL
                         </Link>
-                        <Link href={'/services/cosmetic'} className='px-14 py-5 hover:bg-gray-200 border-y border-gray-300 active:bg-gray-300'>
+                        <Link href={'/services/cosmetic'}
+                            className='px-14 py-5 hover:bg-gray-200 border-y border-gray-300 active:bg-gray-300'
+                            onClick={() => { setOpenState(false); setShowServices(false) }}
+                        >
                             COSMETIC
                         </Link>
-                        <Link href={'/services/surgical'} className='px-14 py-5 hover:bg-gray-200 border-b border-gray-300 active:bg-gray-300'>
+                        <Link href={'/services/surgical'}
+                            className='px-14 py-5 hover:bg-gray-200 border-b border-gray-300 active:bg-gray-300'
+                            onClick={() => { setOpenState(false); setShowServices(false) }}
+                        >
                             SURGICAL
                         </Link>
                     </div>

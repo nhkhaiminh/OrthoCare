@@ -16,7 +16,9 @@ export default function Navbar() {
         <nav className='fixed w-full z-20'>
             <MobileNavbarContext.Provider value={{ openState, setOpenState }}>
                 <div className="grid grid-cols-2 w-full z-30 items-center bg-white px-mobilex lg:px-[5rem] py-5 lg:py-0 border drop-shadow-sm">
-                    <Link href={'/'} className='flex z-30'>
+                    <Link href={'/'} className='flex z-30'
+                        onClick={() => setOpenState(false)}
+                    >
                         <Logo />
                     </Link>
                     <NavbarList />
