@@ -5,8 +5,8 @@ import Navbar from './(components)/navbar/Navbar'
 import Footer from './(components)/Footer'
 
 export const metadata: Metadata = {
-  title: 'OrthoCare',
-  description: 'Transforming lives, one smile at a time',
+  title: 'OrthoCare - Transforming lives, one smile at a time',
+  description: 'Dedicated to transforming lives through personalized orthodontic care. Your journey to a brighter, healthier smile starts here.',
 }
 
 const inter = Inter({
