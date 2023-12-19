@@ -60,7 +60,7 @@ const OurTeam = () => {
                                         src={member.image}
                                         width={500}
                                         height={500}
-                                        alt=''
+                                        alt={`${member.name}-image`}
                                     />
                                 </div>
                                 <div className="flex flex-col gap-5">
