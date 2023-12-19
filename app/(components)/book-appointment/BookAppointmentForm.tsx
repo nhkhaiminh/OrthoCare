@@ -344,7 +344,7 @@ export default function BookAppointmentForm() {
                                                 src={`/media/dentists/${provider.genre === "female" ? "women" : "men"}-dentist.jpg`}
                                                 width={50}
                                                 height={50}
-                                                alt=''
+                                                alt={`${provider.name}-icon-image`}
                                             />
                                             <div className="flex flex-col text-left">
                                                 <p className='font-semibold'>
@@ -516,7 +516,7 @@ export default function BookAppointmentForm() {
                                         src={determineProviderIconGenre({ 'genre': input.provider.genre as Provider['genre'] })}
                                         width={100}
                                         height={100}
-                                        alt=''
+                                        alt={`final-dentist-provider-image`}
                                     />
                                     <p className='font-semibold'>{input.provider.name}</p>
                                 </div>

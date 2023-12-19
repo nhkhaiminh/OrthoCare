@@ -26,7 +26,7 @@ export const Pricing = () => {
                             src={'/svgs/pricing-insurance.svg'}
                             width={100}
                             height={100}
-                            alt=''
+                            alt='pricing-section-image'
                         />
                     </div>
                     <h3 className='font-merry font-semibold text-2xl'>Insurance</h3>

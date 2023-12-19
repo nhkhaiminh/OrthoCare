@@ -35,7 +35,7 @@ export default function GeneralPage() {
                         src={'/media/dentist-giving-health-advice.jpg'}
                         width={300}
                         height={300}
-                        alt=''
+                        alt='dentist-giving-advice-image'
                     />
                 </div>
             </div>

@@ -34,7 +34,7 @@ export default function SurgicalPage() {
                         src={'/media/dental-crown.png'}
                         width={300}
                         height={300}
-                        alt=''
+                        alt='dental-crown-image'
                     />
                 </div>
             </div>

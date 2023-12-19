@@ -34,7 +34,7 @@ export default function CosmeticPage() {
                         src={'/media/patient-and-dentist.webp'}
                         width={300}
                         height={300}
-                        alt=''
+                        alt='patient-and-dentist-image'
                     />
                 </div>
             </div>

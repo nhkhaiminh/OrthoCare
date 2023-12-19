@@ -16,14 +16,14 @@ export default function VisitUs() {
                         src={'/media/visit-us/visit-us-1.jpg'}
                         width={230}
                         height={200}
-                        alt=''
+                        alt="visit-us-image-1"
                     />
                     <Image
                         className='min-w-[100px] lg:w-[230px] rounded-tr-2xl'
                         src={'/media/visit-us/visit-us-2.jpg'}
                         width={230}
                         height={200}
-                        alt=''
+                        alt="visit-us-image-2"
                     />
                 </div>
                 <div className="flex gap-3 lg:justify-center">
@@ -32,14 +32,14 @@ export default function VisitUs() {
                         src={'/media/visit-us/visit-us-3.jpg'}
                         width={230}
                         height={200}
-                        alt=''
+                        alt="visit-us-image-3"
                     />
                     <Image
                         className='min-w-[100px] lg:w-[230px]'
                         src={'/media/visit-us/visit-us-4.jpg'}
                         width={230}
                         height={200}
-                        alt=''
+                        alt="visit-us-image-4"
                     />
                 </div>
             </div>
@@ -54,7 +54,7 @@ export default function VisitUs() {
                         src={'/svgs/map.svg'}
                         width={100}
                         height={100}
-                        alt=''
+                        alt='map-icon-svg'
                     />
                     <p className=''>
                         OrthoCare Dental Clinic 123 Avenue Maple, Suite 201 Montreal, QC, H3A 1W3, Canada
@@ -71,7 +71,7 @@ export default function VisitUs() {
                         src={'/svgs/clock.svg'}
                         width={100}
                         height={100}
-                        alt=''
+                        alt='clock-icon-svg'
                     />
                     <p>
                         Monday-Thursday: 7AM-3PM
