@@ -7,6 +7,9 @@ import Footer from './(components)/Footer'
 export const metadata: Metadata = {
   title: 'OrthoCare - Transforming lives, one smile at a time',
   description: 'Dedicated to transforming lives through personalized orthodontic care. Your journey to a brighter, healthier smile starts here.',
+  alternates: {
+    canonical: `${process.env.BASE_URL}/`
+  }
 }
 
 const inter = Inter({
