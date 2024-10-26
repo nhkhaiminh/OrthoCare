@@ -90,7 +90,7 @@ export default function Footer() {
             </div>
             <div className="z-20">
                 <p>© OrthoCare 2023. All Rights Reserved.</p>
-                <p>Website made by <a className='underline text-amber-200 hover:text-amber-300 duration-300' href='https://asleyrobleto.com' target={'_blank'}>Asley R</a>. 2023.</p>
+                {/* <p>Website made by <a className='underline text-amber-200 hover:text-amber-300 duration-300' href='https://asleyrobleto.com' target={'_blank'}>Asley R</a>. 2023.</p> */}
             </div>
         </footer>
     )
